@@ -1,8 +1,12 @@
 package main
 import "fmt"
 func main(){
-	for i := 1; i < 11; i++ {
-
-		fmt.Println(i * i)
+	var a, b, sum uint
+	fmt.Scan(&a, &b)
+	if a < b && a <= 100 && b <= 100 {
+		for ; a <= b; a++ {
+			sum = sum + a
+		}
 	}
+	fmt.Println(sum)
 }
