@@ -19,7 +19,7 @@ func main(){
 	fmt.Print("\n")
 	fmt.Printf("%.1f", f) // вывод чисел с плавающей
 	fmt.Print("\n")
-	fmt.Printf("%T - %T", b, f) // вывод типа
+	fmt.Printf("%T - %T", b, f) // вывод ТИПА ПЕРЕМЕННОЙ
 	fmt.Print("\n")
 	fmt.Printf("%v - %v", b, f) // универсальный спецификатор
 	fmt.Print("\n")
