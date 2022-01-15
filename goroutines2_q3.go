@@ -22,5 +22,5 @@ func main() {
 		}(i)
 	}
 	wg.Wait()
-	fmt.Println(len(m))
+	fmt.Println(m)
 }
