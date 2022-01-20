@@ -1,13 +1,11 @@
 package main
 
 import (
-	"atomskjd/testmodule"
+	"atomskjd/gomodule"
 	. "fmt"
 )
 
 func main() {
-	testmodule.Gotest()
-	a, b := sumInt(2, 2, 5)
-	Println(a, b)
+	gomodule.Test()
 	Println("HELLO")
 }
